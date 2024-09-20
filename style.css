@@ -1,0 +1,37 @@
+div {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    
+    }
+  
+    .losangoverde {
+        
+        background: linear-gradient(129deg, #006600 70%, #23640f 50%);
+        clip-path: polygon(100% 50%, 4900% 100%, 100% 10100%, 0% 50%);
+    }
+    .losangoverdeevermelho {
+        
+        background: linear-gradient(159deg, #006600 80%, #ff0000 50%);
+        clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
+    }
+    .losangovermelhoeamarelo {
+       
+        background: linear-gradient(159deg, #006600 51%, #ff0000 50%);
+        clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
+    }
+        .losangoverde1 {
+           
+            background: linear-gradient(129deg, #006600 70%, #23640f 50%);
+            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
+        }
+        .losangoverdeevermelho2 {
+          
+            background: linear-gradient(159deg, #006600 80%, #ff0000 50%);
+            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
+        }
+        .losangovermelhoeamarelo3 {
+          
+            background: linear-gradient(159deg, #006600 51%, #ff0000 50%);
+            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
+    }
