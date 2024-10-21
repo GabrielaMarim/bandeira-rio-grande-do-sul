@@ -1,37 +1,22 @@
-div {
-    width: 350px;
-    height: 350px;
-    display: inline-block;
-    
-    }
-  
-    .losangoverde {
-        
-        background: linear-gradient(129deg, #006600 70%, #23640f 50%);
-        clip-path: polygon(100% 50%, 4900% 100%, 100% 10100%, 0% 50%);
-    }
-    .losangoverdeevermelho {
-        
-        background: linear-gradient(159deg, #006600 80%, #ff0000 50%);
-        clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
-    }
-    .losangovermelhoeamarelo {
-       
-        background: linear-gradient(159deg, #006600 51%, #ff0000 50%);
-        clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
-    }
-        .losangoverde1 {
-           
-            background: linear-gradient(129deg, #006600 70%, #23640f 50%);
-            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
-        }
-        .losangoverdeevermelho2 {
-          
-            background: linear-gradient(159deg, #006600 80%, #ff0000 50%);
-            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
-        }
-        .losangovermelhoeamarelo3 {
-          
-            background: linear-gradient(159deg, #006600 51%, #ff0000 50%);
-            clip-path: polygon(100% 50%, 100% 100%, 100% 10100%, 0% 50%);
-    }
+
+.verde {
+    background-color: rgb(40, 117, 9);
+    clip-path: polygon(100% 0, 100% 0, 0 54%, 0 0);
+    width: 1000px;
+    height: 500px;
+    position:absolute
+}
+.vermelho{
+    background-color: brown;
+    clip-path: polygon(100% 47%, 100% 0, 0 54%, 0 100%);
+    width: 1000px;
+    height: 500px;
+    position:absolute
+}
+.amarelo {
+    background-color: rgb(251, 255, 0);
+    clip-path: polygon(100% 47%, 100% 0, 100% 100%, 0 100%);
+    width: 1000px;
+    height: 500px;
+    position:absolute
+}
